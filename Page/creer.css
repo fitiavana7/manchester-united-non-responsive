@@ -1,0 +1,181 @@
+
+
+@media (min-width: 481px) {
+
+/* Connecter */
+#BodyDuForm{
+	
+}
+.LoginContainer{
+    animation: PersonnalAnim2 2s;
+    background: url(../Content/logo/FormBack.jpg);
+    border: 5px solid aqua;
+    width: 500px;
+    margin: 70px auto;
+    padding-bottom: 30px;
+}
+.LoginContainer p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px white;
+}
+.LoginContainer img{
+    margin: 10px 50px 0px 35%;
+    width: 150px;
+    border-radius: 100%;
+}
+#nom:focus , #pwd:focus{
+    border-color: aqua;
+}
+#nom , #pwd{
+    width: 250px;
+    margin-left: 120px;
+    font-size: 20px;
+    border: 1px solid darkblue;
+    padding: 2px 2px 2px 5px;
+    display: inline-block;
+    text-align: center;
+}
+#Connecter{
+    padding: 10px 10px 10px 10px;
+    color: red;
+    background: yellow;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    border-radius: 30px;
+    margin-left: 205px;
+    margin-bottom: 20px;
+}
+#Connecter:hover{
+    box-shadow: 3px 0px 5px white;
+    border: 2px solid white;
+}
+.ouInscrire{
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#Inscription{
+    font-size: 23px;
+    margin-left: 152px;
+    text-decoration:none;
+    color: rgb(22, 7, 155);
+}
+#Inscription:hover{
+    font-size: 23px;
+    text-decoration:underline;
+}
+
+
+/* AUTRES */
+.checkRadio{
+    margin-left: 100px;
+    text-shadow: 2px 2px black;
+    color: white;
+    margin-bottom: 10px;
+}
+.checkRadio label {
+    font-size: 25px;
+}
+.checkRadio legend{
+    font-size: 28px;
+    color: red;
+    text-shadow: 0.8px 0.8px white;
+}
+}
+@media (max-width: 480px) {
+
+/* Connecter */
+#BodyDuForm{
+	
+}
+.LoginContainer{
+    animation: PersonnalAnim2 2s;
+    background: url(../Content/logo/FormBack.jpg);
+    border: 5px solid aqua;
+    width: 96%;
+    margin: 70px auto;
+    padding-bottom: 30px;
+}
+.LoginContainer p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px white;
+}
+.LoginContainer img{
+    margin: 10px 50px 0px 25%;
+    width: 150px;
+    border-radius: 100%;
+}
+#nom:focus , #pwd:focus{
+    border-color: aqua;
+}
+#nom , #pwd{
+    width: 250px;
+    margin-left: 10%;
+    font-size: 20px;
+    border: 1px solid darkblue;
+    padding: 2px 2px 2px 5px;
+    display: inline-block;
+    text-align: center;
+}
+#Connecter{
+    padding: 10px 30px 10px 30px;
+    color: red;
+    background: yellow;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    border-radius: 30px;
+    margin-left: 28%;
+    margin-bottom: 20px;
+}
+#Connecter:hover{
+    box-shadow: 3px 0px 5px white;
+    border: 2px solid white;
+}
+.ouInscrire{
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#Inscription{
+    font-size: 23px;
+    margin-left: 22%;
+    text-decoration:none;
+    color: rgb(22, 7, 155);
+}
+#Inscription:hover{
+    font-size: 23px;
+    text-decoration:underline;
+}
+
+
+/* AUTRES */
+.checkRadio{
+    margin-left: 5px;
+    text-shadow: 2px 2px black;
+    color: white;
+    margin-bottom: 10px;
+}
+.checkRadio label {
+    font-size: 25px;
+}
+.checkRadio legend{
+    font-size: 28px;
+    color: red;
+    text-shadow: 0.8px 0.8px white;
+}
+.checkRadio fieldset{
+    width: 70%;
+}
+}

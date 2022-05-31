@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  	<head>
+        <title>Manchester United</title>
+	    <meta charset="utf-8">
+		<link rel="shortcut icon" href="../Content/logo/logo.jpg">
+		<link rel="stylesheet" href="login.css">
+    </head>
+    <body id="BodyDuForm">
+		<div class="LoginContainer">
+			<img alt="le logo" src="../Content/logo/LoginLogo.jpg">
+			<p>ENTRER VOTRE COMPTE:</p>
+			<form method="POST" action="" id="myForm">
+				<input id="nom" type="text"  name="nom" required="required" placeholder="User ID"></br></br>
+				<input id="pwd" type="password"  name="pwd" required="required" placeholder="Mot de passe"></br></br>
+				<input id="Connecter" type="submit"  value="CONNECTER">
+			</form>
+			<p class="ouInscrire">ou</p></br>
+			<a id="Inscription" href="creer.html">CREER UN COMPTE</a>
+		</div>
+
+		<script>
+			var myUser = {
+				id : 'Fitiavana' ,
+				pwd : '1234'
+			};
+			document.getElementById('myForm').onsubmit = function(){
+				if (document.getElementById('nom').value == myUser.id && document.getElementById('pwd').value == myUser.pwd){
+					alert('Connexion reussi!');
+					
+				} else {
+					alert("Ce compte n'existe pas"); 
+				}
+			};
+			function ChangerBg(){
+				var monBack = document.getElementById('BodyDuForm');
+				monBack.style.background = "url(../Content/logo/LoginBack.jpg)";
+				function ChangeBack(){
+					monBack.style.background = "url(../Content/logo/LoginBack2.jpg)";
+				}
+				function ChangeBack2(){
+					monBack.style.background = "url(../Content/logo/LoginBack3.jpg)";
+				}
+				function ChangeBack3(){
+					monBack.style.background = "url(../Content/logo/LoginBack4.jpg)";
+				}
+				setTimeout(ChangeBack , 4000);
+				setTimeout(ChangeBack2 , 8000);
+				setTimeout(ChangeBack3 , 12000);
+				setTimeout(ChangerBg , 16000);
+			}
+			ChangerBg();
+		</script>
+    </body>
+</html>
